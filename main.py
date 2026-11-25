@@ -1,7 +1,14 @@
+"""make.fun entry: One Word for Your Wi-Fi.
+
+Writes the single word "Gaslighting" to entry.txt: full signal, no
+internet, like the Wi-Fi is lying to you.
+"""
+
 import os
 from pathlib import Path
 
 # One word for my Wi-Fi: full signal, no internet, like it is lying to you.
+# The word is a single word, 11 characters, within the 1-20 character limit.
 WORD = "Gaslighting"
 
 
